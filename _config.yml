@@ -9,17 +9,10 @@ author: Taapas
 title: My personal blog - Taapas Agrawal
 email: taapas2897@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi this is Taapas Agrawal and this is my personal blogging website. :)
 permalink: ':title/'
 baseurl: "/taapas-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Author settings
-#author: Taapas Agrawal # add your name
-#author-pic: taapas.jpg
-#about-author: Hi I am Taapas Agrawal. I’m a first year undergraduate from the department of Geology & Geophysics at IIT Kharagpur(India). I am a robotics and AI enthusiast.<br> I am a part of  <a href="http://krssg.in">Kharagpur Robosoccer Students' Group</a>  (KRSSG) .
 
 # Contact links
 email: taapas2897@gmail.com
