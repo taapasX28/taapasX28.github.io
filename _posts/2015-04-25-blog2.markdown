@@ -1,0 +1,9 @@
+---
+title:  "Blog 2"
+subtitle: "A quick overview"
+author: "Taapas Agrawal"
+avatar: "img/authors/taapas.jpg"
+image: "img/f.jpg"
+date:   2015-04-25 12:12:12
+---
+

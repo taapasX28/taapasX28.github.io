@@ -1,0 +1,8 @@
+---
+title:  "Blog 3"
+subtitle: "Default"
+author: "Taapas Agrawal"
+avatar: "img/authors/taapas.jpg"
+image: "img/e.jpg"
+date:   2015-04-24 12:12:12
+---
