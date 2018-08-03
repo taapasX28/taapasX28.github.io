@@ -50,25 +50,25 @@ To display current saved config type --&gt; {% highlight ruby %}git config --lis
 {% highlight ruby %}
 git help <verb>
 {% endhighlight %}
-eg: {% highlight ruby %}git help config{% endhighlight %} 
+eg: {% highlight ruby %}git help config{% endhighlight %}
 for help regarding configration process
 
 **Creating a local repository:**
 
 cd into the directory you want to track and simply type
 {% highlight ruby %}
-git -init 
+git -init
 {% endhighlight %}
 this will create a .git file in the directory with a basic skeleton without any commits.
 
 **To check which files can be commited:**
 {% highlight ruby %}
-git status 
+git status
 {% endhighlight %}
-this will list the files that can be commited 
+this will list the files that can be commited
 
-- to ignore files create a .gitignore file using {% highlight ruby %} touch .gitignore {% endhighlight %} 
-- open this  using text editor and add names of files you want to ignore 
+- to ignore files create a .gitignore file using {% highlight ruby %} touch .gitignore {% endhighlight %}
+- open this  using text editor and add names of files you want to ignore
 
 **Moving files to staging area**
 
@@ -76,7 +76,7 @@ For adding files individually use --&gt; {% highlight ruby %}git add <filename>{
 
 For adding all files at once use --&gt; {% highlight ruby %}git add -A{% endhighlight %}
 
-To remove files from staging area use --&gt;{% highlight ruby %} git reset <filename>{% endhighlight %} 
+To remove files from staging area use --&gt;{% highlight ruby %} git reset <filename>{% endhighlight %}
 and to remove all simply--&gt;{% highlight ruby %}git reset{% endhighlight %}
 
 **To commit the files**
@@ -90,7 +90,7 @@ git commit -m “message”
 {% endhighlight %}
 **To check the commit history**
 {% highlight ruby %}
-git log 
+git log
 {% endhighlight %}
 **Cloning a repository from internet**
 {% highlight ruby %}
@@ -98,58 +98,58 @@ git clone <url> <location>
 {% endhighlight %}
 To clone into current directory use “.” in place of location
 
-To check status of the cloned repository 
+To check status of the cloned repository
 {% highlight ruby %}
 git remote -v  {% endhighlight %}--&gt;
-gives the location from where it is fetched 
+gives the location from where it is fetched
 {% highlight ruby %}
 git  branch -a {% endhighlight %}--&gt;
-gives all the branches 
+gives all the branches
 
 **Changing and submitting:**
 
-Make changes to the file of the cloned repository.Now to see change made type--&gt; 
+Make changes to the file of the cloned repository.Now to see change made type--&gt;
 {% highlight ruby %}
 git diff
 {% endhighlight %}
 This will display the change made.
 
-Now git status will view the modified file . 
+Now git status will view the modified file .
 
 Add the file to the staging area using git add -A
 
 Commit these files with appropriate message .
 
 Now before pushing it back . We need to pull and check whether any other person made a
-change in the branch since the last time type in --&gt; 
+change in the branch since the last time type in --&gt;
 {% highlight ruby %}git pull origin master{% endhighlight %}(If on master branch else use branchname in place of master)
 
 Now for finally pushing type in --&gt;
-{% highlight ruby %} 
+{% highlight ruby %}
 git push origin master
 {% endhighlight %}
 **Branching:**
 
 -
-	To create a new branch--&gt; {% highlight ruby %}git branch <branchname>{% endhighlight %} 
-- 
-	To check all the branches present --&gt; {% highlight ruby %}git branch{% endhighlight %} 
-- 
+	To create a new branch--&gt; {% highlight ruby %}git branch <branchname>{% endhighlight %}
+-
+	To check all the branches present --&gt; {% highlight ruby %}git branch{% endhighlight %}
+-
 	To switch over branch --&gt; {% highlight ruby %}git checkout <branchname> {% endhighlight %}
-- 
+-
 	to push a commited change --&gt;{% highlight ruby %} git push -u origin <branchname> {% endhighlight %}
 
 **To merge the branch to master**
 
-- 
+-
 	{% highlight ruby %}git merge <branchname> {% endhighlight %}
-- 
-	 To push the changes we simply use --&gt;{% highlight ruby %} git push origin master{% endhighlight %} 
-- 
+-
+	 To push the changes we simply use --&gt;{% highlight ruby %} git push origin master{% endhighlight %}
+-
 	To check it they are merged type in --&gt;{% highlight ruby %} git branch – merged {% endhighlight %}
-- 
+-
 	if the branch is successfully merged we can now delete the branch--&gt;
-	{% highlight ruby %}git branch -d <branchname>{% endhighlight %} 
+	{% highlight ruby %}git branch -d <branchname>{% endhighlight %}
 
 **For Reference :**
 

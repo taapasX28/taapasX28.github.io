@@ -52,13 +52,13 @@ of file on a computer can be placed under version control.</p>
 
 <p>cd into the directory you want to track and simply type</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="o">-</span><span class="n">init</span> </code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="o">-</span><span class="n">init</span></code></pre></figure>
 
 <p>this will create a .git file in the directory with a basic skeleton without any commits.</p>
 
 <p><strong>To check which files can be commited:</strong></p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">status</span> </code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">status</span></code></pre></figure>
 
 <p>this will list the files that can be commited</p>
 
@@ -96,7 +96,7 @@ use “-m” extension like</p>
 
 <p><strong>To check the commit history</strong></p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">log</span> </code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">log</span></code></pre></figure>
 
 <p><strong>Cloning a repository from internet</strong></p>
 
@@ -136,8 +136,7 @@ change in the branch since the last time type in –&gt;</p>
 
 <p>Now for finally pushing type in –&gt;</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> 
-<span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
 
 <p><strong>Branching:</strong></p>
 
@@ -145,42 +144,34 @@ change in the branch since the last time type in –&gt;</p>
 	To create a new branch–&gt;</p>
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span> <span class="o">&lt;</span><span class="n">branchname</span><span class="o">&gt;</span></code></pre></figure>
 
-<ul>
-  <li>To check all the branches present –&gt;</li>
-</ul>
+<p>-
+	To check all the branches present –&gt;</p>
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span></code></pre></figure>
 
-<ul>
-  <li>To switch over branch –&gt;</li>
-</ul>
+<p>-
+	To switch over branch –&gt;</p>
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="o">&lt;</span><span class="n">branchname</span><span class="o">&gt;</span> </code></pre></figure>
 
-<ul>
-  <li>to push a commited change –&gt;</li>
-</ul>
+<p>-
+	to push a commited change –&gt;</p>
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> <span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="o">&lt;</span><span class="n">branchname</span><span class="o">&gt;</span> </code></pre></figure>
 
 <p><strong>To merge the branch to master</strong></p>
 
-<ul>
-  <li></li>
-</ul>
+<p>-</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">merge</span> <span class="o">&lt;</span><span class="n">branchname</span><span class="o">&gt;</span> </code></pre></figure>
 
-<ul>
-  <li>To push the changes we simply use –&gt;</li>
-</ul>
+<p>-
+	 To push the changes we simply use –&gt;</p>
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> <span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
 
-<ul>
-  <li>To check it they are merged type in –&gt;</li>
-</ul>
+<p>-
+	To check it they are merged type in –&gt;</p>
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> <span class="n">git</span> <span class="n">branch</span> <span class="err">–</span> <span class="n">merged</span> </code></pre></figure>
 
-<ul>
-  <li>if the branch is successfully merged we can now delete the branch–&gt;</li>
-</ul>
+<p>-
+	if the branch is successfully merged we can now delete the branch–&gt;</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span> <span class="o">-</span><span class="n">d</span> <span class="o">&lt;</span><span class="n">branchname</span><span class="o">&gt;</span></code></pre></figure>
 
