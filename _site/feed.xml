@@ -7,9 +7,39 @@
         <link>http://localhost:4000/taapas-blog/</link>
         <atom:link href="http://localhost:4000/taapas-blog/feed.xml" rel="self"
         type="application/rss+xml"/>
-        <pubDate>Sat, 04 Aug 2018 00:54:00 +0530</pubDate>
-        <lastBuildDate>Sat, 04 Aug 2018 00:54:00 +0530</lastBuildDate>
+        <pubDate>Sun, 05 Aug 2018 00:27:23 +0530</pubDate>
+        <lastBuildDate>Sun, 05 Aug 2018 00:27:23 +0530</lastBuildDate>
         <generator>Jekyll v3.8.3</generator>
+        
+        <item>
+            <title>Summers of 2018</title>
+            <description>&lt;hr /&gt;
+
+&lt;p&gt;Few days ago my summer vacations ended. It was quite a fun time learning new stuff. Here is a brief description of what all I did for my first summer break at IIT Kharagpur.&lt;/p&gt;
+
+&lt;p&gt;The first month of the vacations I was at campus itself as I am a part of KRSSG as an AI team member for the Humanoid Team.&lt;/p&gt;
+
+&lt;p&gt;My basic aim their was to code and optimize strategies for &lt;strong&gt;Multi Agent Autonomously Coordinated Soccer Playing Humanoid Bots&lt;/strong&gt; known as &lt;strong&gt;Naobots&lt;/strong&gt;. Each Naobot has 22 joints to which appropriate torques are applied using codes so they can perform premilinary actions like kicking , getting up and walking. Based on these actions formally known as &lt;strong&gt;Skills&lt;/strong&gt; we develop strategies for co-ordination between 11 such bots and shape it into an autonomously led soccer game. On my behalf I optimized the present strategies and added some new ones . The basic aim there was to minimize the execution time and develop minimilastic approach to every complex strategy so as to improve reflexes of the bots.&lt;/p&gt;
+
+&lt;p&gt;I also worked on was that of development of new skills . Using &lt;strong&gt;Motion Editor&lt;/strong&gt; which is basically a platform where you can apply appropriate angles to the joints in a particular time frame. From my side these angles were hard coded so as to make a skill as I had absolutely no idea of ML back then. These hard coded skills were later optimized using &lt;strong&gt;CMA-ES&lt;/strong&gt; algorithm by my seniors.&lt;/p&gt;
+
+&lt;p&gt;The campus at that time had become a chilly place my hall (LBS) which was a place that almost never slept during normal days was way to quite . Things changed a lot during summers almost every day I slept when sun rose and went for 4 a.m. snacks at cheddis. Watched a lot of movies and started watching TV series.&lt;/p&gt;
+
+&lt;p&gt;Later on 4th of July I returned back to my home and process of learning stepped a gear or two down . I started my course on ML (Yes none other than Andrew NG) and started doing random competitive coding . I wanted to explore as many things I could . I developed my own &lt;strong&gt;Jekyll&lt;/strong&gt; blog website and learnt basic CSS and HTML in process. I also learnt that the themes for Ubuntu were also in CSS and therefore tweaked my 
+desktop accordingly.&lt;/p&gt;
+
+&lt;p&gt;I read parts of &lt;em&gt;Pro-Git&lt;/em&gt; and wrote my first technical blog and got it published under KOSS publication on medium. Here is the &lt;a href=&quot;https://blog.kossiitkgp.in/git-cheatsheet-67ddd8cbbe94&quot;&gt;&lt;strong&gt;link&lt;/strong&gt;&lt;/a&gt;. Later I also started an Algorithms course parallel to the ML one and tried to code the algorithms as I studied them.&lt;/p&gt;
+
+&lt;p&gt;I learnt Basic linear regression model of Machine learning and the math behind it as far as I could , the concepts of underfitting and over-fitting , logistic regression model, and Neural-networks . After this I switched over to CS231N and learned the K Nearest Neighbour Algorithm and its utilities .This course is still at hand now. In algorithms I went through randomly and did maze solving using BFS and DFS. Used Dijkstra , A* and RRT for some pathplanning in random image samples. Later I organized it a little bit and I am still doing the Algorithms Course.&lt;/p&gt;
+
+&lt;p&gt;Finally the vacations ended and I back to Kharagpur.The thing I regret the most is that I should have done a little more on the practical side and tried software development and focussed more on one thing rather than trying all in bits .&lt;/p&gt;
+</description>
+            <pubDate>Sat, 04 Aug 2018 06:12:12 +0530</pubDate>
+            <link>http://localhost:4000/taapas-blog#/Summers-of-2018/</link>
+            <guid isPermaLink="true">http://localhost:4000/taapas-blog#/Summers-of-2018/</guid>
+            
+            
+        </item>
         
         <item>
             <title>Git CheatSheet</title>
@@ -212,17 +242,6 @@ change in the branch since the last time type in –&amp;gt;&lt;/p&gt;
             <pubDate>Sat, 25 Apr 2015 17:42:12 +0530</pubDate>
             <link>http://localhost:4000/taapas-blog#/blog2/</link>
             <guid isPermaLink="true">http://localhost:4000/taapas-blog#/blog2/</guid>
-            
-            
-        </item>
-        
-        <item>
-            <title>Blog 3</title>
-            <description>
-</description>
-            <pubDate>Fri, 24 Apr 2015 17:42:12 +0530</pubDate>
-            <link>http://localhost:4000/taapas-blog#/blog3/</link>
-            <guid isPermaLink="true">http://localhost:4000/taapas-blog#/blog3/</guid>
             
             
         </item>
