@@ -1,27 +1,28 @@
-# Site settings
-#title: My Personal Blog
-#description: Hi I am Taapas Agrawal.
-keywords: Modern, Blogging, Fun
-author: Taapas
-#baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "" # the base hostname & protocol for your site
+###############################################################################
+# Jekyll Configuration
+highlighter: rouge
+markdown: kramdown
+permalink: /:title.html
+#paginate: 5
+port: 3000
+safe: true
+language: 'en-uk'
+plugins: [jekyll-feed]
 
-title: My personal blog - Taapas Agrawal
+###############################################################################
+# Page Personal Details
+url: http://127.0.0.1:3000/
+baseurl: /
+author: Taapas Agrawal
+title: Taapas Agrawal | Welcome to my homepage
+description: Personal Landing Page
+avatar: taapas.jpg
+
+# Contacts
 email: taapas2897@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hi this is Taapas Agrawal and this is my personal blogging website. :)
-permalink: ':title/'
-baseurl: "/taapas-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Contact links
-email: taapas2897@gmail.com
-phone: 7355281756
-website: # Add your website, do not add http://
-linkedin: # Add your Linkedin handle
-github: taapas1128 # Add your Github handle
-twitter:  # Add your Twitter handle
-facebook: # Add your Facebook handle
-instagram: # Add your Instagram handle
-pinterest: # Add your Pinterest handle
+# Upon Request for Phone, Skype, Hangouts, etc.
+urequest: Upon request
 
+# Github
+username: taapasX28
