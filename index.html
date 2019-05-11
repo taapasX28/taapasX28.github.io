@@ -1,30 +1,34 @@
 ---
-layout: layout
+layout: default
 ---
-<div class="container">
-  <div class="row">
-    <div class="col-md-3" style="text-align:center;">
-      <div class="avatar">
-    	   <img class="rounded-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image" style="max-width: 70%; height: auto;">
-      </div>
-      <h5>Taapas Agrawal, Undergraduate </h5>
-      {% include social.html %}
-    </div>
-    <div class="col-md-9">
-      <h1><strong>Hi! I'm Taapas</strong></h1>
-      <p>I am a 3rd year Undergraduate student at <a href="http://iitkgp.ac.in/">Indian Institute Of Technology Kharagpur</a>, in India.
-        I'm pursuing a major in Applied Geology and a minor in Mathematics and Computing. I'm a robotics and AI enthusiast. 
-        I've been coding in C and C++ for over two years and in Python for a year and am proficient in all three of them now.</p>
-      <p>I am a part of <a href="http://krssg.in">Kharagpur Robosoccer Students' Group</a> (KRSSG) and  <a href="https://kossiitkgp.in/">Kharagpur Open Source Society</a> </p>
-      <p>My interests span Software Development, Machine Learning, Reinforcement Learning,
-        Version Control Systems, Technical Writing, and Gaming.</p>
-    	<p>Check out my <a href="http://github.com/{{ site.username }}">Coding Projects</a>,
-        Feel free to contact me at <a href="https://twitter.com/AgrawalTaapas">@AgrawalTaapas</a>
-        or by <a href="taapas2897@gmail.com">Email</a>.</p>
-      </br>
-      <h4><strong>Recent Blogs and Articles</strong></h4>
-      <pre></pre>
-      <p>1. <a href="https://medium.com/kharagpur-open-source-society/git-cheatsheet-67ddd8cbbe94">Git Cheatsheet</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<i>Jun 20, 2018 . 5 min read</i></p>
-    </div>
-  </div>
-</div>
+
+<main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    {% for post in site.posts %}
+        <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
+                    <meta itemprop="datePublished" content="{{post.date}}">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        <span class="day">
+                            {{ post.date | date: "%d" }}
+                        </span>
+                        <span class="month-year">
+                            {{ post.date | date: "%B %Y" }}
+                        </span>
+                    </time>
+                </a>
+                <div class="content">
+                    <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name">{{ post.title }}</h2></a>
+                    <p class="description">
+                        {{ post.content | strip_html | truncatewords:40 }}
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
+                    </p>
+
+                    <div class="tags">
+                        {% for tag in post.tags %}
+                            <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+        </article>
+    {% endfor %}
+</main>

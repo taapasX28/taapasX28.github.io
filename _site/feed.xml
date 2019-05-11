@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A blog about lorem ipsum dolor sit amet</title>
+    <description>A blog about lorem ipsum dolor sit amet</description>
+    <link>http://localhost:4000/taapas_blog/</link>
+    <atom:link href="http://localhost:4000/taapas_blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 11 May 2019 21:44:39 +0530</pubDate>
+    <lastBuildDate>Sat, 11 May 2019 21:44:39 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Git Cheatsheet</title>
+        <description>&lt;h1 id=&quot;git-cheatsheet&quot;&gt;Git Cheatsheet&lt;/h1&gt; &lt;p&gt;What is Git?&lt;/p&gt; &lt;p&gt;From &lt;a href=&quot;https://git-scm.com/&quot;&gt;Git’s&lt;/a&gt; official website:&lt;/p&gt; &lt;p&gt;Git is a &lt;a href=&quot;https://git-scm.com/about/free-and-open-source&quot;&gt;free and open source&lt;/a&gt; distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;About Version Control&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;What is version control, and why should you care? Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. Even though the examples show software source code as the files under version control, in reality any type of file on a computer can be placed...</description>
+        <pubDate>Fri, 20 Jul 2018 09:02:44 +0530</pubDate>
+        <link>http://localhost:4000/taapas_blog/how-to-use/</link>
+        <guid isPermaLink="true">http://localhost:4000/taapas_blog/how-to-use/</guid>
+        
+        <category>git</category>
+        
+        <category>version control</category>
+        
+        
+        <category>I love version control systems.</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt; &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most...</description>
+        <pubDate>Tue, 04 Aug 2015 08:51:35 +0530</pubDate>
+        <link>http://localhost:4000/taapas_blog/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/taapas_blog/welcome-to-jekyll/</guid>
+        
+        <category>jekyll</category>
+        
+        <category>web</category>
+        
+        
+        <category>Jekyll is awesome</category>
+        
+      </item>
+    
+  </channel>
+</rss>

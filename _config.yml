@@ -1,28 +1,40 @@
-###############################################################################
-# Jekyll Configuration
-highlighter: rouge
-markdown: kramdown
-permalink: /:title.html
-#paginate: 5
-port: 3000
-safe: true
-language: 'en-uk'
-plugins: [jekyll-feed]
-
-###############################################################################
-# Page Personal Details
-url: http://127.0.0.1:3000/
-baseurl: /
-author: Taapas Agrawal
-title: Taapas Agrawal | Welcome to my homepage
-description: Personal Landing Page
-avatar: taapas.jpg
-
-# Contacts
+# Site settings
+title: A blog about lorem ipsum dolor sit amet
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "/taapas_blog" # the subpath of your site, e.g. /blog
+url: "https://taapasx28.github.io/" 
+# User settings
+username: Taapas Agrawal
+user_description: Software Developer, AI Enthusiast
+user_title: Software Developer, AI Enthusiast
 email: taapas2897@gmail.com
+twitter_username: AgrawalTaapas
+github_username:  taapasX28
+gplus_username:  lorem_ipsum
+disqus_username: taapas2897
 
-# Upon Request for Phone, Skype, Hangouts, etc.
-urequest: Upon request
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
 
-# Github
-username: taapasX28
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /taapas_blog/
+  - title: Tags
+    url: /taapas_blog/tags
+  - title: About Me
+    url: /taapas_blog/about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
