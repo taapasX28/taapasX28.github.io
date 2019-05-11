@@ -2,7 +2,7 @@
 title: A blog about lorem ipsum dolor sit amet
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "/taapas_blog" # the subpath of your site, e.g. /blog
-url: "https://taapasx28.github.io/" 
+url: "https://taapasx28.github.io" 
 # User settings
 username: Taapas Agrawal
 user_description: Software Developer, AI Enthusiast
