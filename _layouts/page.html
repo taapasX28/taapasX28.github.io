@@ -1,14 +1,71 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE HTML>
+<!--
+	Read by Fastbyte01
+	Based on Read-only template released by html5up.
+	Free for personal and commercial use under the CCA 3.0 license
+-->
+<html>
+	<head>
+		<title>{{site.title}}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+		<!-- Header -->
+			<section id="header">
+				  <header>
+				{% include header.html %}
+				</header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+				<nav id="nav">
+				  {% include nav.html %}
+				</nav>
 
-</div>
+				<footer>
+				{% include social-links.html %}
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								{% include section1.html %}
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								{% include section2.html %}
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								{% include section3.html %}
+							</section>
+
+							<section id="four">
+								{% include section4.html %}
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+					{% include footer.html %}	
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			{%include script.html %}
+
+	</body>
+</html>

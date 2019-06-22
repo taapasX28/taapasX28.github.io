@@ -1,40 +1,74 @@
-# Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "https://taapasx28.github.io/taapas_blog" # the subpath of your site, e.g. /blog
-url: "https://taapasx28.github.io" 
-# User settings
-username: Taapas Agrawal
-user_description: Software Developer, AI Enthusiast
-user_title: Software Developer, AI Enthusiast
+#Site configuration
+title: T's Site
+name:  T's Site
+author: Taapas Agrawal
+work:  Software Developer | AI Enthusiast
+year: 2019
+
+# Navigation
+nav1: "About"
+nav2: "Things I Can Do"
+nav3: "A Few Accomplishments"
+nav4: "Blogs"
+
+# Section1
+sec1: "About Me"
+sec2: "Just a fellow Human being."
+sec3: "I am a 3rd year Undergraduate student at Indian Institute Of Technology Kharagpur, in India.
+       I'm pursuing a major in Applied Geology and a minor in Mathematics and Computing. I'm a robotics and AI enthusiast. 
+       I've been coding in C and C++ for over two years and in Python for a year and am proficient in all three of them now.
+       I am a part of Kharagpur Robosoccer Students' Group(KRSSG)and  Kharagpur Open Source Society
+       My interests span Software Development, Machine Learning, Reinforcement Learning,
+       Version Control Systems, Technical Writing, and Gaming."
+# Section 2
+sec4: "Things I Can Do"
+sec5: "These are a few things I can do. No kidding!"
+icon1: "fas fa-code"
+icont1: "Write some code"
+icon2: "fa-cubes"
+icont2: "Stack small boxes"
+icon3: "fa-book"
+icont3: "Read books and stuff"
+icon4: "fa-coffee"
+icont4: "Drink much coffee"
+icon5: "fa-bolt"
+icont5: "Lightning bolt"
+icon6: "fa-users"
+icont6: "Shadow clone technique"
+
+# Section 3
+sec6: "A Few Accomplishments"
+sec8: "Student Developer at Google Summer of Code"
+sec9: "Working on a project regarding implementation of a unified abort and continue command for multistep operations.
+Organization: 𝗠𝗲𝗿𝗰𝘂𝗿𝗶𝗮𝗹, Python Software Foundation
+Mentors: Pulkit Goyal, Sangeet Kumar Mishra, Susheel Khanchi
+Project abstract: https://summerofcode.withgoogle.com/projects/#5132139832541184"
+sec10: "Humanoid Team Head at KRSSG"
+sec11: "My work is to develop Artificial Intelligence for creating a team of autonomous humanoid robots play soccer. We represent India in an international robotics event RoboCup by taking part in Robosoccer 3D simulation league. My work experience includes optimization techniques, Reinforcement Learning, multi-agent coordination, and logic."
+sec12: "Executive Head at KOSS"
+sec13: "We are a group of Open Source Enthusiasts who focus on something more preliminary and relevant, ”𝗔 𝗟𝗼𝘃𝗲 𝗳𝗼𝗿 𝗖𝗼𝗱𝗶𝗻𝗴”.
+Every year KOSS plans to hold events for familiarizing students with UNIX tools, Linux environment, Git Development Workflow, practice Algorithms and Data Structures, besides conducting workshops on GUI programming, Web development, Android application Development and Hackathons. "
+
+#Section 4
+sec14: "Blogs"
+sec15: "links"
+
+# Social Links
+facebook: assassinX.taapas
+twitter:  AgrawalTaapas
+#google: username
+#instagram: username
+#pinterest: username
+linkedin: taapas-agrawal-956110152
+#youtube: username
+#spotify: username
+#lastfm: username
+github: taapasX28
+#stackoverflow: username
+#quora: username
+#reddit: username
+medium: taapasagrawal
+#vimeo: username
+#keybase: username
 email: taapas2897@gmail.com
-twitter_username: AgrawalTaapas
-github_username:  taapasX28
-gplus_username:  lorem_ipsum
-disqus_username: taapas2897
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
-
-
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
-
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /taapas_blog/
-  - title: Tags
-    url: /taapas_blog/tags
-  - title: About Me
-    url: /taapas_blog/about
-
-# exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
